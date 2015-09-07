@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ATM CLI app
+Comment=
+Exec=ruby atm_cli.rb
+Icon=
+Path=/home/ira/Documents/projects/atm-app-exe
+Terminal=true
+StartupNotify=false
