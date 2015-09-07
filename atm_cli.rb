@@ -1,6 +1,8 @@
 
   def ask
-    puts "\nHow much do you want to withdraw? This machine can withdraw in multiples of $5."
+    puts "Good day! This ATM can handle withdrawals only."
+    puts "How much do you want to withdraw?"
+    puts "This machine can withdraw in multiples of $5."
     print "> "
     amount = $stdin.gets.to_i
     withdraw(amount)
